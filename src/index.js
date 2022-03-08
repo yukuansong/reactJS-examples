@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// import Lists from './Test';
+// import NameForm from './NameForm';
+// import EssayForm from './EssayForm';
+// import FlavorForm from './FlavorForm';
+// import Reservation from './Reservation';
+// import ContextApp from './Context';
+// import ErrorApp from './ErrorBoundary';
+// import ButtonApp from './ButtonApp';
+
+// import MyProductsApp from './MyProductsApp';
+// import ProductsListWithSearch from './ProductsListWithSearch';
+// import MyRouter from './MyRouter';
+// import MyMain from "./MyMain.js"
+import TextAreaDeleteButton from "./TextAreaDeleteButton"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <TextAreaDeleteButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
